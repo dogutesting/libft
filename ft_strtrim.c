@@ -1,6 +1,6 @@
 #include "libft.h"
 
-int	ft_in_set(char c, const char *set)
+static int	ft_in_set(char c, const char *set)
 {
 	int	i;
 
