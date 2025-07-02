@@ -18,13 +18,6 @@ static int	ft_numlen(long n)
 	return (len);
 }
 
-#include <stdio.h>
-
-int main(void) {
-	printf("%i\n", ft_numlen(-270));
-	return (0);
-}
-
 char	*ft_itoa(int n)
 {
 	char	*str;
